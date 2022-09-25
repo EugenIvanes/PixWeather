@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Categoriadaptor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/hourtime"
+        android:layout_width="78dp"
+        android:layout_height="183dp"
+        android:contentDescription="@string/cloc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgraund" />
+
+    <TextView
+        android:id="@+id/datehouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/cloc"
+        app:layout_constraintEnd_toEndOf="@+id/hourtime"
+        app:layout_constraintStart_toStartOf="@+id/hourtime"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/houertemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        app:layout_constraintBottom_toBottomOf="@+id/hourtime"
+        app:layout_constraintEnd_toEndOf="@+id/hourtime"
+        app:layout_constraintStart_toStartOf="@+id/hourtime"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/houerdescription"
+        android:layout_width="59dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/TextView"
+        app:layout_constraintBottom_toTopOf="@+id/houertemperature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datehouer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

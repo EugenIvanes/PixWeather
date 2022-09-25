@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PixWeather</string>
+    <string name="TextView">TextView</string>
+    <string name="test">Beta : 0.0.4</string>
+    <string name="city">Город</string>
+    <string name="temp">Температура</string>
+    <string name="refresh">refresh</string>
+    <string name="cloc">Время</string>
+    <string name="fils">Как будто</string>
+    <string name="nointernet">No internet connection</string>
+    <string name="day">дневная температура</string>
+
+</resources>

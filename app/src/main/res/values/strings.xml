@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PixWeather</string>
+    <string name="TextView">TextView</string>
+    <string name="test">Beta : 0.0.4</string>
+    <string name="city">City</string>
+    <string name="temp">Temperature</string>
+    <string name="refresh">refresh</string>
+    <string name="cloc">Time</string>
+    <string name="fils">Feels like</string>
+    <string name="nointernet">No internet connection</string>
+    <string name="day">Day temperature</string>
+</resources>
